@@ -10,3 +10,14 @@ addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.7")
      b) if we have scala installed: scala OUR_JAR.jar packages.MAIN_OBJECT
        (as well work just "scala OUR_JAR.jar" if we have one main object)
 
+Structure:
+- RootFolder
+    -- bin
+    -- project
+        --- assembly.sbt
+        --- build.properties 
+    -- src
+        --- scala
+            ---- ...scala
+    -- target
+    -- buildt.sbt
